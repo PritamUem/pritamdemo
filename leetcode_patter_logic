@@ -1,0 +1,16 @@
+This problem from LeetCode — "1948. Delete Duplicate Folders in System" — uses a combination of Trie (prefix tree) and Post-order 
+Traversal with Hashing/Serialization. These are very common design patterns used by LeetCode aspirants and interviewees to solve problems related to hierarchical 
+data or trees. Let’s break down the core patterns used:  ????
+
+
+
+Final Tip:
+These patterns — Trie + DFS + Hashing — form a very reusable approach for many LeetCode problems involving:
+
+File/folder systems
+
+Duplicates in tree-like structures
+
+Path matching
+
+Autocomplete systems
