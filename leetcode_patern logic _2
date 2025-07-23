@@ -1,0 +1,12 @@
+maximum substring removing
+1. Greedy Approach (High score first):
+Since two patterns ("ab" and "ba") give different scores (x and y), the coder chooses the one with the higher score to remove first to maximize the total score.
+
+That’s wh
+
+Summary of Common Method:
+Technique	Explanation
+Greedy	Remove high-value substrings first
+Stack	Simulate pairing of characters (like parentheses matching)
+In-place Marking	Use '.' to track removed characters
+Efficient	O(n) time, minimal extra memory usage
